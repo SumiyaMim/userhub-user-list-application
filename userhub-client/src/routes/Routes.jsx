@@ -13,12 +13,12 @@ const router = createBrowserRouter([
             {
                 path: '/',
                 element: <Home></Home>,
-                loader: () => fetch('http://localhost:5000/users')
+                loader: () => fetch('https://userhub-server.vercel.app/users')
             },   
             {
                 path: 'user/details/:id', 
                 element: <UserDetails></UserDetails>,
-                loader: () => fetch('http://localhost:5000/users')
+                loader: () => fetch('https://userhub-server.vercel.app/users')
             },
         ]
     },

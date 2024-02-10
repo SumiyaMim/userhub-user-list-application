@@ -18,7 +18,7 @@ export default function AddUser() {
     // console.log(newUser);
 
     // send user to the server
-    fetch('http://localhost:5000/users', {
+    fetch('https://userhub-server.vercel.app/users', {
       method: 'POST',
       headers: {
           'content-type': 'application/json'
