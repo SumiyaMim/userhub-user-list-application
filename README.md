@@ -2,7 +2,7 @@ This is user list application.
 
 Live Link: https://userhub.vercel.app/
 
-###Technology:
+### **Technology:**
 - React
 - Tailwind CSS
 - Express.js
