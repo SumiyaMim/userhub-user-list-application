@@ -34,7 +34,7 @@ async function run() {
       res.send(result);
     })
 
-    // send products
+    // send users
     app.post('/users', async (req, res) => {
       const newUser = req.body;
       const result = await userCollection.insertOne(newUser);
@@ -42,7 +42,7 @@ async function run() {
     })
 
     // Send a ping to confirm a successful connection
-    await client.db("admin").command({ ping: 1 });
+    // await client.db("admin").command({ ping: 1 });
     console.log("Pinged your deployment. You successfully connected to MongoDB!");
   } finally {
     // Ensures that the client will close when you finish/error
