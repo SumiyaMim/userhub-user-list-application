@@ -40,7 +40,7 @@ const Navbar = () => {
             </li>
             <li>
                 <a 
-                className="hover:[text-#f91942] text-white"
+                className="hover:text-[#f91942] text-white"
                 >
                     Login
                 </a>
